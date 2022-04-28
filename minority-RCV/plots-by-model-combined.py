@@ -163,10 +163,10 @@ for name, model in modelresults.items():
     y+=1
 
 # Set proportionality line and Biden support line!
-ax.axvline(state["POCVAP20SEATS"], color="k", alpha=1/2)
+ax.axvline(state["POCVAP20SEATS"], color="gold", alpha=1/2)
 ax.axvline(
     state["REPRESENTATIVES"]*(state["2020_PRES_D"]/(state["2020_PRES_D"]+state["2020_PRES_R"])),
-    color="darkorange", alpha=1/2
+    color="k", alpha=1/2
 )
 
 # Re-set the xmin value if the number of POC representatives is smaller than everything!
@@ -217,8 +217,8 @@ ax.set_xlabel("Statewide Seats", fontdict=lfd)
 
 # Add a legend?
 handles = [
-    Line2D([0],[0], color="k", alpha=1/2, label="POC proportionality"),
-    Line2D([0],[0], color="darkorange", alpha=1/2, label="Biden proportionality"),
+    Line2D([0],[0], color="gold", alpha=1/2, label="POC proportionality"),
+    Line2D([0],[0], color="k", alpha=1/2, label="Biden proportionality"),
     # Line2D([0],[0], color="forestgreen", alpha=1/2, label="Current POC representation")
 ]
 
