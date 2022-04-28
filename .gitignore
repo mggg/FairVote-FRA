@@ -1,0 +1,34 @@
+*.pdf
+*.code-workspace
+*.DS_Store
+__pycache__/
+
+meetings/
+figures/
+
+# Ignore all the too-big input data.
+minority-RCV/data/records/*
+minority-RCV/output/figures/*
+minority-RCV/configurations.json
+minority-RCV/configurations-lowturnout.json
+
+# Include zipped outputs.
+minority-RCV/output/results/*
+!minority-RCV/output/results/*.zip
+minority-RCV/output/tables/*
+
+# Ignore geometric data.
+rcv-example/data/geometries/*
+rcv-example/data/plans/*
+rcv-example/data/graphs
+
+# Ignore weird outputs?
+rcv-example/output/figures/*
+
+# Include zipped chains.
+rcv-example/output/chains/*
+!rcv-example/output/chains/*.zip
+
+# Include zipped records.
+rcv-example/output/records/*
+!rcv-example/output/records/*.zip

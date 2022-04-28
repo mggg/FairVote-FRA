@@ -1,0 +1,8 @@
+
+# Ignore too-big outputs.
+**/*.jsonl
+**/*.json
+
+data/graphs
+data/geometries
+data/plans
