@@ -1,0 +1,37 @@
+{
+    "florida": {
+        "max": 7,
+        "cycles": 200,
+        "midpoint": 0.5,
+        "growth": 0.1,
+        "cold": 150
+    },
+    "illinois": {
+        "max": 7,
+        "cycles": 200,
+        "midpoint": 0.5,
+        "growth": 0.1,
+        "cold": 150
+    },
+    "texas": {
+        "max": 8,
+        "cycles": 100,
+        "midpoint": 0.5,
+        "growth": 0.1,
+        "cold": 500
+    },
+    "maryland": {
+        "max": 5,
+        "cycles": 200,
+        "midpoint": 0.5,
+        "growth": 0.2,
+        "cold": 112
+    },
+    "massachusetts": {
+        "max": 5,
+        "cycles": 400,
+        "midpoint": 0.5,
+        "growth": 0.2,
+        "cold": 100
+    }
+}
